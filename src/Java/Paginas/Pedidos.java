@@ -157,7 +157,7 @@ public class Pedidos extends JFrame {
     }
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
-        Sobremesas sobremesas = new Sobremesas();
+        Sobremesa sobremesas = new Sobremesa();
         sobremesas.setVisible(true);
     }
 

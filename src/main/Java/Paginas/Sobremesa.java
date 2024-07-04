@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/main/Java/Paginas/Sobremesa.java
 
 package main.Java.Paginas;
 
@@ -11,6 +12,24 @@ public class Sobremesa extends javax.swing.JFrame {
 
 
     public Sobremesa() {
+=======
+/*
+ * lCick nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package com.mycompany.mavenproject1;
+
+/**
+ *
+ * @author natanael.aquino
+ */
+public class Projeto extends javax.swing.JFrame {
+
+    /**
+     * Creates new form Projeto
+     */
+    public Projeto() {
+>>>>>>> origin/main:src/Java/Paginas/Sobremesa.java
         initComponents();
     }
 
@@ -98,6 +117,7 @@ public class Sobremesa extends javax.swing.JFrame {
                 .addContainerGap(129, Short.MAX_VALUE))
         );
 
+<<<<<<< HEAD:src/main/Java/Paginas/Sobremesa.java
         jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/Java/imagem/7.jpeg"))); // NOI18N
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,12 +130,20 @@ public class Sobremesa extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
+=======
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/mavenproject1/5.jpeg"))); // NOI18N
+        jButton9.setText("jButton8");
+
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/mavenproject1/6.jpeg"))); // NOI18N
+
+>>>>>>> origin/main:src/Java/Paginas/Sobremesa.java
         jLabel2.setFont(new java.awt.Font("Segoe UI Black", 2, 14)); // NOI18N
         jLabel2.setText(" Smores Outblack");
   
         jLabel4.setFont(new java.awt.Font("Segoe UI Black", 2, 14)); // NOI18N
         jLabel4.setText("Super Milkshke");
 
+<<<<<<< HEAD:src/main/Java/Paginas/Sobremesa.java
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/main/Java/imagem/9.jpeg"))); // NOI18N
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,6 +152,12 @@ public class Sobremesa extends javax.swing.JFrame {
         });
         jLabel3.setFont(new java.awt.Font("Segoe UI Black", 2, 14)); // NOI18N
         jLabel3.setText("Cholote Thunder ");
+=======
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/mavenproject1/6.jpeg"))); // NOI18N
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI Black", 2, 14)); // NOI18N
+        jLabel3.setText(" Veggie Blue Chees Burger");
+>>>>>>> origin/main:src/Java/Paginas/Sobremesa.java
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -194,6 +228,7 @@ public class Sobremesa extends javax.swing.JFrame {
 
     }                                        
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+<<<<<<< HEAD:src/main/Java/Paginas/Sobremesa.java
 
         muda.chefe();
     }   
@@ -210,6 +245,14 @@ public class Sobremesa extends javax.swing.JFrame {
         ingredientesFrameChocolateThunder.setVisible(true);
     }                                             
 
+=======
+        // TODO add your handling code here:
+    }                                        
+
+    /**
+     * @param args the command line arguments
+     */
+>>>>>>> origin/main:src/Java/Paginas/Sobremesa.java
     public static void main(String args[]) {
 
         try {
@@ -220,15 +263,25 @@ public class Sobremesa extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Sobremesa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Projeto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Sobremesa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Projeto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Sobremesa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Projeto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Sobremesa.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Projeto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+<<<<<<< HEAD:src/main/Java/Paginas/Sobremesa.java
+=======
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Projeto().setVisible(true);
+            }
+        });
+>>>>>>> origin/main:src/Java/Paginas/Sobremesa.java
     }
 
     // Variables declaration - do not modify                     
